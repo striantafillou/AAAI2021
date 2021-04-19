@@ -1,0 +1,1 @@
+ismember(M,Z) :- set(M), node(Z), M & (2**Z) != 0.

@@ -1,0 +1,11 @@
+% clingo version 4.5.4
+% Reading from .\causal_discovery.asp ...
+% Solving...
+% Answer: 10
+arrow(3,2). arrow(1,2). outside_set(1,1). outside_set(2,1). outside_set(3,1). outside_set(1,2). outside_set(3,2). noncollideropen(1,context(1,1)). noncollideropen(2,context(1,1)). noncollideropen(3,context(1,1)). noncollideropen(1,context(2,1)). noncollideropen(3,context(2,1)). into(1,2,context(1,1)). into(3,2,context(1,1)). into(1,2,context(2,1)). into(3,2,context(2,1)). collideropen(2,context(2,1)). outof(2,1,context(1,1)). outof(2,3,context(1,1)). outof(2,1,context(2,1)). outof(3,1,context(2,1)). outof(2,3,context(2,1)). outof(1,3,context(2,1)). outof(3,3,context(2,1)). outof(1,1,context(2,1)). into(2,2,context(1,1)). into(2,2,context(2,1)). dconn(1,2,context(1,1)). dconn(2,3,context(1,1)). dconn(1,3,context(2,1)). notarrow(2,1). notarrow(2,3). ancestor(3,2). ancestor(1,2). notancestor(2,1). notancestor(2,3). notselected(2,1). notmanipulated(2,1).
+% 
+% Models         : 10    
+%   Cautious     : yes
+% Calls          : 1
+% Time           : 0.008s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+% CPU Time       : 0.000s
